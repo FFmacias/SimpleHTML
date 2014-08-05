@@ -1,0 +1,132 @@
+[33mcommit eabd645ff00d18a6502ddb2b87a5fa1bbd1d9ffa[m
+Author: FFmacias <fmacias@comcast.net>
+Date:   Tue Aug 5 14:35:22 2014 -0600
+
+    first commit
+
+[1mdiff --git a/.project b/.project[m
+[1mnew file mode 100644[m
+[1mindex 0000000..479f011[m
+[1m--- /dev/null[m
+[1m+++ b/.project[m
+[36m@@ -0,0 +1,29 @@[m
+[32m+[m[32m<?xml version="1.0" encoding="UTF-8"?>[m
+[32m+[m[32m<projectDescription>[m
+[32m+[m	[32m<name>SimpleHTML</name>[m
+[32m+[m	[32m<comment></comment>[m
+[32m+[m	[32m<projects>[m
+[32m+[m	[32m</projects>[m
+[32m+[m	[32m<buildSpec>[m
+[32m+[m		[32m<buildCommand>[m
+[32m+[m			[32m<name>org.eclipse.wst.jsdt.core.javascriptValidator</name>[m
+[32m+[m			[32m<arguments>[m
+[32m+[m			[32m</arguments>[m
+[32m+[m		[32m</buildCommand>[m
+[32m+[m		[32m<buildCommand>[m
+[32m+[m			[32m<name>org.eclipse.wst.common.project.facet.core.builder</name>[m
+[32m+[m			[32m<arguments>[m
+[32m+[m			[32m</arguments>[m
+[32m+[m		[32m</buildCommand>[m
+[32m+[m		[32m<buildCommand>[m
+[32m+[m			[32m<name>org.eclipse.wst.validation.validationbuilder</name>[m
+[32m+[m			[32m<arguments>[m
+[32m+[m			[32m</arguments>[m
+[32m+[m		[32m</buildCommand>[m
+[32m+[m	[32m</buildSpec>[m
+[32m+[m	[32m<natures>[m
+[32m+[m		[32m<nature>org.eclipse.wst.common.project.facet.core.nature</nature>[m
+[32m+[m		[32m<nature>org.eclipse.wst.common.modulecore.ModuleCoreNature</nature>[m
+[32m+[m		[32m<nature>org.eclipse.wst.jsdt.core.jsNature</nature>[m
+[32m+[m	[32m</natures>[m
+[32m+[m[32m</projectDescription>[m
+[1mdiff --git a/.settings/.jsdtscope b/.settings/.jsdtscope[m
+[1mnew file mode 100644[m
+[1mindex 0000000..3a28de0[m
+[1m--- /dev/null[m
+[1m+++ b/.settings/.jsdtscope[m
+[36m@@ -0,0 +1,12 @@[m
+[32m+[m[32m<?xml version="1.0" encoding="UTF-8"?>[m
+[32m+[m[32m<classpath>[m
+[32m+[m	[32m<classpathentry kind="src" path="WebContent"/>[m
+[32m+[m	[32m<classpathentry kind="con" path="org.eclipse.wst.jsdt.launching.JRE_CONTAINER"/>[m
+[32m+[m	[32m<classpathentry kind="con" path="org.eclipse.wst.jsdt.launching.WebProject">[m
+[32m+[m		[32m<attributes>[m
+[32m+[m			[32m<attribute name="hide" value="true"/>[m
+[32m+[m		[32m</attributes>[m
+[32m+[m	[32m</classpathentry>[m
+[32m+[m	[32m<classpathentry kind="con" path="org.eclipse.wst.jsdt.launching.baseBrowserLibrary"/>[m
+[32m+[m	[32m<classpathentry kind="output" path=""/>[m
+[32m+[m[32m</classpath>[m
+[1mdiff --git a/.settings/org.eclipse.wst.common.component b/.settings/org.eclipse.wst.common.component[m
+[1mnew file mode 100644[m
+[1mindex 0000000..c04707d[m
+[1m--- /dev/null[m
+[1m+++ b/.settings/org.eclipse.wst.common.component[m
+[36m@@ -0,0 +1,6 @@[m
+[32m+[m[32m<?xml version="1.0" encoding="UTF-8"?><project-modules id="moduleCoreId" project-version="1.5.0">[m
+[32m+[m[32m    <wb-module deploy-name="SimpleHTML">[m
+[32m+[m[32m        <wb-resource deploy-path="/" source-path="/WebContent"/>[m
+[32m+[m[32m        <property name="context-root" value="Simple_HTML_Project"/>[m
+[32m+[m[32m    </wb-module>[m
+[32m+[m[32m</project-modules>[m
+[1mdiff --git a/.settings/org.eclipse.wst.common.project.facet.core.xml b/.settings/org.eclipse.wst.common.project.facet.core.xml[m
+[1mnew file mode 100644[m
+[1mindex 0000000..77ae5f1[m
+[1m--- /dev/null[m
+[1m+++ b/.settings/org.eclipse.wst.common.project.facet.core.xml[m
+[36m@@ -0,0 +1,7 @@[m
+[32m+[m[32m<?xml version="1.0" encoding="UTF-8"?>[m
+[32m+[m[32m<faceted-project>[m
+[32m+[m[32m  <fixed facet="wst.jsdt.web"/>[m
+[32m+[m[32m  <fixed facet="wst.web"/>[m
+[32m+[m[32m  <installed facet="wst.web" version="1.0"/>[m
+[32m+[m[32m  <installed facet="wst.jsdt.web" version="1.0"/>[m
+[32m+[m[32m</faceted-project>[m
+[1mdiff --git a/.settings/org.eclipse.wst.jsdt.ui.superType.container b/.settings/org.eclipse.wst.jsdt.ui.superType.container[m
+[1mnew file mode 100644[m
+[1mindex 0000000..3bd5d0a[m
+[1m--- /dev/null[m
+[1m+++ b/.settings/org.eclipse.wst.jsdt.ui.superType.container[m
+[36m@@ -0,0 +1 @@[m
+[32m+[m[32morg.eclipse.wst.jsdt.launching.baseBrowserLibrary[m
+\ No newline at end of file[m
+[1mdiff --git a/.settings/org.eclipse.wst.jsdt.ui.superType.name b/.settings/org.eclipse.wst.jsdt.ui.superType.name[m
+[1mnew file mode 100644[m
+[1mindex 0000000..05bd71b[m
+[1m--- /dev/null[m
+[1m+++ b/.settings/org.eclipse.wst.jsdt.ui.superType.name[m
+[36m@@ -0,0 +1 @@[m
+[32m+[m[32mWindow[m
+\ No newline at end of file[m
+[1mdiff --git a/WebContent/index.html b/WebContent/index.html[m
+[1mnew file mode 100644[m
+[1mindex 0000000..9d7b335[m
+[1m--- /dev/null[m
+[1m+++ b/WebContent/index.html[m
+[36m@@ -0,0 +1,10 @@[m
+[32m+[m[32m<!DOCTYPE html>[m
+[32m+[m[32m<html>[m
+[32m+[m[32m<head>[m
+[32m+[m[32m<meta charset="ISO-8859-1">[m
+[32m+[m[32m<title>Insert title here</title>[m
+[32m+[m[32m</head>[m
+[32m+[m[32m<body>[m
+[32m+[m	[32mHi, this is a test[m
+[32m+[m[32m</body>[m
+[32m+[m[32m</html>[m
+\ No newline at end of file[m
+[1mdiff --git a/WebContent/readme.md b/WebContent/readme.md[m
+[1mnew file mode 100644[m
+[1mindex 0000000..5d1ba56[m
+[1m--- /dev/null[m
+[1m+++ b/WebContent/readme.md[m
+[36m@@ -0,0 +1 @@[m
+[32m+[m[32m# Hi, just playing with gitHub[m
+\ No newline at end of file[m
+[1mdiff --git a/github2 b/github2[m
+[1mnew file mode 160000[m
+[1mindex 0000000..509edfd[m
+[1m--- /dev/null[m
+[1m+++ b/github2[m
+[36m@@ -0,0 +1 @@[m
+[32m+[m[32mSubproject commit 509edfdc2c5edafe1674688172034b044507a312[m
